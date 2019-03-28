@@ -67,7 +67,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "MoveTest123/sub2/data.json",
-        "code": "[]"
+        "code": ""
       },
       "088081c0-9f52-4760-952f-0115586007e2": {
         "id": "088081c0-9f52-4760-952f-0115586007e2",
@@ -139,7 +139,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1553766395135
+    "lastSave": 1553766445983
   },
   "VCS_STATE": {
     "provider": "GitHub",
