@@ -10,7 +10,8 @@
         "children": [
           "73276026-5153-45c5-b4c5-90ce8e4af0bd",
           "b241171a-b4bb-4ced-bf61-e11f0fe47e4f",
-          "f0a2b39b-599d-4e3d-901c-6a5b274de84c"
+          "f0a2b39b-599d-4e3d-901c-6a5b274de84c",
+          "69cfb94b-f092-495c-81e0-e077f4cea392"
         ],
         "isRemovable": false,
         "filePath": "MoveTest123"
@@ -53,21 +54,21 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "69cfb94b-f092-495c-81e0-e077f4cea392",
-          "54a74332-025a-4d4c-9693-0590d171cb5f"
+          "54a74332-025a-4d4c-9693-0590d171cb5f",
+          "140b476d-fce3-47f7-b5e8-b0bbc822b094"
         ],
         "isRemovable": true,
         "filePath": "MoveTest123/sub2"
       },
       "69cfb94b-f092-495c-81e0-e077f4cea392": {
         "id": "69cfb94b-f092-495c-81e0-e077f4cea392",
-        "parent": "f0a2b39b-599d-4e3d-901c-6a5b274de84c",
+        "parent": "25219970-b7a0-4692-a692-9477d80fe484",
         "name": "data.json",
         "type": "JSON_FILE",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "MoveTest123/sub2/data.json",
+        "filePath": "MoveTest123/data.json",
         "code": ""
       },
       "088081c0-9f52-4760-952f-0115586007e2": {
@@ -87,26 +88,25 @@
         "name": "sub3",
         "type": "DIRECTORY",
         "isDirectory": true,
-        "children": [
-          "140b476d-fce3-47f7-b5e8-b0bbc822b094"
-        ],
+        "children": [],
         "isRemovable": true,
         "filePath": "MoveTest123/sub2/sub3"
       },
       "140b476d-fce3-47f7-b5e8-b0bbc822b094": {
         "id": "140b476d-fce3-47f7-b5e8-b0bbc822b094",
-        "parent": "54a74332-025a-4d4c-9693-0590d171cb5f",
+        "parent": "f0a2b39b-599d-4e3d-901c-6a5b274de84c",
         "name": "index.html",
         "type": "HTML_FILE",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "MoveTest123/sub2/sub3/index.html",
+        "filePath": "MoveTest123/sub2/index.html",
         "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>index</title>\n</head>\n<body>\n\n</body>\n</html>"
       }
     },
     "deletedFiles": [
-      "MoveTest123/data.json"
+      "MoveTest123/sub2/data.json",
+      "MoveTest123/sub2/sub3/index.html"
     ],
     "rootNode": "25219970-b7a0-4692-a692-9477d80fe484",
     "openFiles": [
@@ -142,7 +142,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1553767637977
+    "lastSave": 1553767693099
   },
   "VCS_STATE": {
     "provider": "GitHub",
