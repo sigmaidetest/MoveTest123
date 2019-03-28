@@ -12,7 +12,8 @@
           "b241171a-b4bb-4ced-bf61-e11f0fe47e4f",
           "f0a2b39b-599d-4e3d-901c-6a5b274de84c",
           "088081c0-9f52-4760-952f-0115586007e2",
-          "9e4c3080-4cdc-4ee3-8a38-9099712fa66a"
+          "9e4c3080-4cdc-4ee3-8a38-9099712fa66a",
+          "6fe3ae3a-379d-4dbf-a797-ae31e2dd6a9c"
         ],
         "isRemovable": false,
         "filePath": "MoveTest123"
@@ -114,21 +115,30 @@
         "isRemovable": true,
         "filePath": "MoveTest123/data-1.json",
         "code": "[\n    {\"name\": \"mike\"}\n]"
+      },
+      "6fe3ae3a-379d-4dbf-a797-ae31e2dd6a9c": {
+        "id": "6fe3ae3a-379d-4dbf-a797-ae31e2dd6a9c",
+        "parent": "25219970-b7a0-4692-a692-9477d80fe484",
+        "name": "hello3.xml",
+        "type": "XML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MoveTest123/hello3.xml",
+        "code": ""
       }
     },
-    "deletedFiles": [
-      "MoveTest123/hello2.xml",
-      "MoveTest123/hello.xml"
-    ],
+    "deletedFiles": [],
     "rootNode": "25219970-b7a0-4692-a692-9477d80fe484",
     "openFiles": [
       "73276026-5153-45c5-b4c5-90ce8e4af0bd",
       "69cfb94b-f092-495c-81e0-e077f4cea392",
       "088081c0-9f52-4760-952f-0115586007e2",
       "140b476d-fce3-47f7-b5e8-b0bbc822b094",
-      "9e4c3080-4cdc-4ee3-8a38-9099712fa66a"
+      "9e4c3080-4cdc-4ee3-8a38-9099712fa66a",
+      "6fe3ae3a-379d-4dbf-a797-ae31e2dd6a9c"
     ],
-    "currentFileId": "73276026-5153-45c5-b4c5-90ce8e4af0bd",
+    "currentFileId": "6fe3ae3a-379d-4dbf-a797-ae31e2dd6a9c",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -155,7 +165,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1553767413435
+    "lastSave": 1553767492009
   },
   "VCS_STATE": {
     "provider": "GitHub",
