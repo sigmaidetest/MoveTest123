@@ -11,7 +11,8 @@
           "73276026-5153-45c5-b4c5-90ce8e4af0bd",
           "b241171a-b4bb-4ced-bf61-e11f0fe47e4f",
           "f0a2b39b-599d-4e3d-901c-6a5b274de84c",
-          "088081c0-9f52-4760-952f-0115586007e2"
+          "088081c0-9f52-4760-952f-0115586007e2",
+          "2f7c1f88-ea17-42af-bf47-56b01130a54b"
         ],
         "isRemovable": false,
         "filePath": "MoveTest123"
@@ -102,6 +103,17 @@
         "isRemovable": true,
         "filePath": "MoveTest123/sub2/sub3/index.html",
         "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>index</title>\n</head>\n<body>\n\n</body>\n</html>"
+      },
+      "2f7c1f88-ea17-42af-bf47-56b01130a54b": {
+        "id": "2f7c1f88-ea17-42af-bf47-56b01130a54b",
+        "parent": "25219970-b7a0-4692-a692-9477d80fe484",
+        "name": "hello.xml",
+        "type": "XML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MoveTest123/hello.xml",
+        "code": "<a></a>"
       }
     },
     "deletedFiles": [],
@@ -110,9 +122,10 @@
       "73276026-5153-45c5-b4c5-90ce8e4af0bd",
       "69cfb94b-f092-495c-81e0-e077f4cea392",
       "088081c0-9f52-4760-952f-0115586007e2",
-      "140b476d-fce3-47f7-b5e8-b0bbc822b094"
+      "140b476d-fce3-47f7-b5e8-b0bbc822b094",
+      "2f7c1f88-ea17-42af-bf47-56b01130a54b"
     ],
-    "currentFileId": "69cfb94b-f092-495c-81e0-e077f4cea392",
+    "currentFileId": "2f7c1f88-ea17-42af-bf47-56b01130a54b",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -139,7 +152,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1553766445983
+    "lastSave": 1553766511138
   },
   "VCS_STATE": {
     "provider": "GitHub",
