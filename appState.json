@@ -1,0 +1,151 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "25219970-b7a0-4692-a692-9477d80fe484": {
+        "id": "25219970-b7a0-4692-a692-9477d80fe484",
+        "parent": null,
+        "name": "MoveTest123",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "73276026-5153-45c5-b4c5-90ce8e4af0bd",
+          "b241171a-b4bb-4ced-bf61-e11f0fe47e4f",
+          "f0a2b39b-599d-4e3d-901c-6a5b274de84c",
+          "088081c0-9f52-4760-952f-0115586007e2"
+        ],
+        "isRemovable": false,
+        "filePath": "MoveTest123"
+      },
+      "73276026-5153-45c5-b4c5-90ce8e4af0bd": {
+        "id": "73276026-5153-45c5-b4c5-90ce8e4af0bd",
+        "parent": "25219970-b7a0-4692-a692-9477d80fe484",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MoveTest123/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      },
+      "b241171a-b4bb-4ced-bf61-e11f0fe47e4f": {
+        "id": "b241171a-b4bb-4ced-bf61-e11f0fe47e4f",
+        "parent": "25219970-b7a0-4692-a692-9477d80fe484",
+        "name": "sub1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MoveTest123/sub1"
+      },
+      "f0a2b39b-599d-4e3d-901c-6a5b274de84c": {
+        "id": "f0a2b39b-599d-4e3d-901c-6a5b274de84c",
+        "parent": "25219970-b7a0-4692-a692-9477d80fe484",
+        "name": "sub2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "69cfb94b-f092-495c-81e0-e077f4cea392",
+          "54a74332-025a-4d4c-9693-0590d171cb5f"
+        ],
+        "isRemovable": true,
+        "filePath": "MoveTest123/sub2"
+      },
+      "69cfb94b-f092-495c-81e0-e077f4cea392": {
+        "id": "69cfb94b-f092-495c-81e0-e077f4cea392",
+        "parent": "f0a2b39b-599d-4e3d-901c-6a5b274de84c",
+        "name": "data.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MoveTest123/sub2/data.json",
+        "code": "[]"
+      },
+      "088081c0-9f52-4760-952f-0115586007e2": {
+        "id": "088081c0-9f52-4760-952f-0115586007e2",
+        "parent": "25219970-b7a0-4692-a692-9477d80fe484",
+        "name": "data.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MoveTest123/data.json",
+        "code": "[\n    {\"name\": \"mike\"}\n]"
+      },
+      "54a74332-025a-4d4c-9693-0590d171cb5f": {
+        "id": "54a74332-025a-4d4c-9693-0590d171cb5f",
+        "parent": "f0a2b39b-599d-4e3d-901c-6a5b274de84c",
+        "name": "sub3",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "140b476d-fce3-47f7-b5e8-b0bbc822b094"
+        ],
+        "isRemovable": true,
+        "filePath": "MoveTest123/sub2/sub3"
+      },
+      "140b476d-fce3-47f7-b5e8-b0bbc822b094": {
+        "id": "140b476d-fce3-47f7-b5e8-b0bbc822b094",
+        "parent": "54a74332-025a-4d4c-9693-0590d171cb5f",
+        "name": "index.html",
+        "type": "HTML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MoveTest123/sub2/sub3/index.html",
+        "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>index</title>\n</head>\n<body>\n\n</body>\n</html>"
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "25219970-b7a0-4692-a692-9477d80fe484",
+    "openFiles": [
+      "73276026-5153-45c5-b4c5-90ce8e4af0bd",
+      "69cfb94b-f092-495c-81e0-e077f4cea392",
+      "088081c0-9f52-4760-952f-0115586007e2",
+      "140b476d-fce3-47f7-b5e8-b0bbc822b094"
+    ],
+    "currentFileId": "69cfb94b-f092-495c-81e0-e077f4cea392",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "MoveTest123",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1553766395135
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "MoveTest123",
+      "url": "https://github.com/sigmaidetest/MoveTest123"
+    }
+  }
+}
