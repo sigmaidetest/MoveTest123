@@ -12,7 +12,9 @@
           "b241171a-b4bb-4ced-bf61-e11f0fe47e4f",
           "f0a2b39b-599d-4e3d-901c-6a5b274de84c",
           "088081c0-9f52-4760-952f-0115586007e2",
-          "2f7c1f88-ea17-42af-bf47-56b01130a54b"
+          "2f7c1f88-ea17-42af-bf47-56b01130a54b",
+          "9e4c3080-4cdc-4ee3-8a38-9099712fa66a",
+          "fc253e39-a63a-4003-aeea-774fb1d69924"
         ],
         "isRemovable": false,
         "filePath": "MoveTest123"
@@ -114,6 +116,28 @@
         "isRemovable": true,
         "filePath": "MoveTest123/hello.xml",
         "code": "<a></a>"
+      },
+      "9e4c3080-4cdc-4ee3-8a38-9099712fa66a": {
+        "id": "9e4c3080-4cdc-4ee3-8a38-9099712fa66a",
+        "parent": "25219970-b7a0-4692-a692-9477d80fe484",
+        "name": "data-1.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MoveTest123/data-1.json",
+        "code": "[\n    {\"name\": \"mike\"}\n]"
+      },
+      "fc253e39-a63a-4003-aeea-774fb1d69924": {
+        "id": "fc253e39-a63a-4003-aeea-774fb1d69924",
+        "parent": "25219970-b7a0-4692-a692-9477d80fe484",
+        "name": "hello2.xml",
+        "type": "XML_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MoveTest123/hello2.xml",
+        "code": null
       }
     },
     "deletedFiles": [],
@@ -123,9 +147,11 @@
       "69cfb94b-f092-495c-81e0-e077f4cea392",
       "088081c0-9f52-4760-952f-0115586007e2",
       "140b476d-fce3-47f7-b5e8-b0bbc822b094",
-      "2f7c1f88-ea17-42af-bf47-56b01130a54b"
+      "2f7c1f88-ea17-42af-bf47-56b01130a54b",
+      "9e4c3080-4cdc-4ee3-8a38-9099712fa66a",
+      "fc253e39-a63a-4003-aeea-774fb1d69924"
     ],
-    "currentFileId": "2f7c1f88-ea17-42af-bf47-56b01130a54b",
+    "currentFileId": "fc253e39-a63a-4003-aeea-774fb1d69924",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -152,7 +178,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1553766511138
+    "lastSave": 1553767107078
   },
   "VCS_STATE": {
     "provider": "GitHub",
